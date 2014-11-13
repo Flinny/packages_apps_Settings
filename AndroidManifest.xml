@@ -1766,7 +1766,10 @@
             android:theme="@style/CryptKeeperBlankTheme"
         />
 
-        <!-- "Blacklist settings" UI, used only on voice-capable phone devices. -->
+        <activity android:name=".cyanogenmod.SpamList" />
+
+         <!-- "Blacklist settings" UI, used only on voice-capable phone devices. -->
+
         <activity android:name="Settings$BlacklistSettingsActivity"
                 android:theme="@android:style/Theme.Holo.DialogWhenLarge"
                 android:uiOptions="splitActionBarWhenNarrow"
