@@ -113,6 +113,14 @@
                        android:targetClass="com.slim.center.SlimCenter" />
         </dashboard-tile>
 
+        <!-- Slim Advanced -->
+        <dashboard-tile
+                android:id="@+id/slim_settings"
+                android:icon="@drawable/ic_settings_advanced"
+                android:fragment="com.android.settings.slim.SlimSettings"
+                android:title="@string/slim_settings_title"
+                />
+
     </dashboard-category>
 
     <!-- DEVICE -->
