@@ -540,7 +540,7 @@ public class HardwareKeysSettings extends SettingsPreferenceFragment implements
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         menu.add(0, MENU_RESET, 0, R.string.shortcut_action_reset)
-                .setIcon(R.drawable.ic_settings_backup) // use the backup icon
+                .setIcon(R.drawable.ic_settings_reset) // Use the reset icon
                 .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
     }
 
