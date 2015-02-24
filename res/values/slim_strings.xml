@@ -826,4 +826,7 @@
     <string name="lcd_density_unsupported">Unsupported</string>
     <string name="restarting_ui">Restarting UI\u2026</string>
 
+    <!-- SlimCenter -->
+    <string name="slim_center_title">SlimCenter</string>
+
 </resources>
